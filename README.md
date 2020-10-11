@@ -1,6 +1,6 @@
 # findLocationFromAddress
 
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/27ed514af5a14764b6dfe45954ff71a9)](https://www.codacy.com/gh/mikegikas/findLocationFromAddress/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=mikegikas/findLocationFromAddress&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/27ed514af5a14764b6dfe45954ff71a9)](https://www.codacy.com/gh/mikegikas/findLocationFromAddress/dashboard?utm_source=github.com&utm_medium=referral&utm_content=mikegikas/findLocationFromAddress&utm_campaign=Badge_Grade)
 
 This is a simple Java program to find the latitude and longitude from an excel file.
 
