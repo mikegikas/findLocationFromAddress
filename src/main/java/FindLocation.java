@@ -27,7 +27,7 @@ public class FindLocation {
 
         ArrayList<String> address = new ArrayList<>();
 
-        Map<Integer, Object[]> locationInfo = new TreeMap<Integer, Object[]>();
+        Map<Integer, Object[]> locationInfo = new TreeMap<>();
 
         XSSFWorkbook workbook = new XSSFWorkbook();
 
@@ -61,8 +61,8 @@ public class FindLocation {
                 System.out.println("Actual Address After Concat Cols: " + formatAddress);
                 address.add(formatAddress.toString());
             }
-        } catch (Exception ex) {
-            System.out.println(ex);
+        } catch (Exception e) {
+            System.out.println(e);
         }
 
         int rowInfo = 1;
@@ -73,7 +73,7 @@ public class FindLocation {
 
             String encodeWord = URLEncoder.encode(word, "UTF-8");
 
-            actualUrl.append(googleUrl).append(encodeWord).append("&key=" + apiKey);
+            actualUrl.append(googleUrl).append(encodeWord).append("&key=").append(apiKey);
 
             JSONObject jsonObject = new JSONObject(getUrlConnection(new URL(actualUrl.toString())));
 
