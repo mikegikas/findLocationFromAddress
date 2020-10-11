@@ -25,7 +25,7 @@ import java.util.Set;
 import java.util.TreeMap;
 
 
-public class Findlocation {
+public class FindLocation {
     public static void main(String[] args) throws Exception {
         String googleUrl = "https://maps.googleapis.com/maps/api/geocode/json?address=";
 
